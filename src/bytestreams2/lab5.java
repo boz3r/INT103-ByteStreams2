@@ -16,7 +16,7 @@ import java.util.logging.Logger;
 public class lab5 {
 
     public static void main(String[] args) throws ClassNotFoundException {
-        Student s = new Student("65130500046", "Phatcharadol Thangplubs");
+        Student s = new Student("123", "Jack Daniel");
         try {
             FileOutputStream file = new FileOutputStream("obj.dat");
             ObjectOutputStream obj = new ObjectOutputStream(file);
